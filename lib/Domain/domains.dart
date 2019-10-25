@@ -194,13 +194,16 @@ class DomainsState extends State<Domains> {
   Widget descriptionbox(String title, String descript) {
     var alert = AlertDialog(
       content: Container(
-        child: Text(
-          descript,
-          style: TextStyle(
-            color: Colors.white,
-            fontSize: 18.0
-          ),
-          textAlign: TextAlign.center,
+        
+        child: SingleChildScrollView(
+          
+          child:
+            Text(
+              descript,
+              style: TextStyle(color: Colors.white, fontSize: 18.0),
+              textAlign: TextAlign.center,
+            ),
+          
         ),
       ),
       backgroundColor: Color(0xff1f1f1f),

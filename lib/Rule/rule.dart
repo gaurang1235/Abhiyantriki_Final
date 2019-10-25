@@ -257,35 +257,7 @@ class _RuleState extends State<Rule> {
                       SizedBox(
                         height: 15,
                       ),
-                      Padding(
-                        padding: const EdgeInsets.symmetric(horizontal: 20.0),
-                        child: Row(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: <Widget>[
-                            Padding(
-                              padding: const EdgeInsets.only(top: 4.0),
-                              child: Icon(
-                                Icons.radio_button_checked,
-                                color: Color(0xffefb168),
-                                size: 13,
-                              ),
-                            ),
-                            SizedBox(
-                              width: 20,
-                            ),
-                            Expanded(
-                                child: Text(
-                              "The first page to include Title, Name(s) of authors, their student number, telephone numbers as well as e-mail addresses. This information to be included with extended abstract also. ",
-                              style: TextStyle(color: Colors.white),
-                              textAlign: TextAlign.justify,
-                            )),
-                          ],
-                        ),
-                      ),
-                      SizedBox(
-                        height: 30,
-                      )
+                      
                     ],
                   ),
                   width: MediaQuery.of(context).size.width - 50,

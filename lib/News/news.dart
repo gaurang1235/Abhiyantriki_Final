@@ -496,7 +496,7 @@ class News extends StatelessWidget {
                                             ],
                                           ),
                                           Expanded(
-                                            child:  Text("PRICE",textAlign: TextAlign.right,style: TextStyle(color: Colors.white,fontSize: 12)),
+                                            child:  Text("PRIZE",textAlign: TextAlign.right,style: TextStyle(color: Colors.white,fontSize: 12)),
                                           )
                                         ],
                                       ),
